@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Product Showcase</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-6 py-4">
+
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+
+        <!-- Logo -->
+        <h1 class="text-2xl font-bold text-blue-600">
+          TechStore
+        </h1>
+
+        <!-- Navigation Links -->
+        <div class="flex flex-wrap gap-4 text-gray-600">
+          <a href="#" class="hover:text-blue-600">Home</a>
+          <a href="#" class="hover:text-blue-600">Products</a>
+          <a href="#" class="hover:text-blue-600">About</a>
+          <a href="#" class="hover:text-blue-600">Contact</a>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Hero Section -->
+  <section class="bg-blue-600 text-white py-16">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+
+      <h2 class="text-3xl md:text-5xl font-bold mb-4">
+        Discover Our Products
+      </h2>
+
+      <p class="text-lg md:text-xl text-blue-100 max-w-2xl mx-auto">
+        Explore our collection of modern and high-quality products
+        designed to make your life easier.
+      </p>
+
+      <button
+        class="mt-6 bg-white text-blue-600 px-6 py-3 rounded-lg
+               font-semibold hover:bg-gray-100 transition">
+        Shop Now
+      </button>
+
+    </div>
+  </section>
+
+
+  <!-- Product Showcase -->
+  <main class="max-w-7xl mx-auto px-6 py-12">
+
+    <h2 class="text-3xl font-bold text-center mb-10">
+      Featured Products
+    </h2>
+
+    <!-- Product Container -->
+    <div class="flex flex-col md:flex-row flex-wrap gap-8 justify-center">
+
+      <!-- Product Card 1 -->
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden
+                  w-full md:w-[45%] lg:w-[30%]
+                  hover:shadow-2xl transition">
+
+        <img
+          src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+          alt="Headphones"
+          class="w-full h-56 object-cover">
+
+        <div class="p-6">
+
+          <h3 class="text-xl font-bold mb-2">
+            Wireless Headphones
+          </h3>
+
+          <p class="text-gray-600 mb-4">
+            High-quality wireless headphones with excellent sound
+            and long-lasting battery life.
+          </p>
+
+          <div class="flex items-center justify-between">
+
+            <span class="text-2xl font-bold text-blue-600">
+              $79
+            </span>
+
+            <button
+              class="bg-blue-600 text-white px-4 py-2 rounded-lg
+                     hover:bg-blue-700 transition">
+              Buy Now
+            </button>
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Product Card 2 -->
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden
+                  w-full md:w-[45%] lg:w-[30%]
+                  hover:shadow-2xl transition">
+
+        <img
+          src="https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+          alt="Smart Watch"
+          class="w-full h-56 object-cover">
+
+        <div class="p-6">
+
+          <h3 class="text-xl font-bold mb-2">
+            Smart Watch
+          </h3>
+
+          <p class="text-gray-600 mb-4">
+            Track your fitness, monitor notifications and stay
+            connected throughout the day.
+          </p>
+
+          <div class="flex items-center justify-between">
+
+            <span class="text-2xl font-bold text-blue-600">
+              $129
+            </span>
+
+            <button
+              class="bg-blue-600 text-white px-4 py-2 rounded-lg
+                     hover:bg-blue-700 transition">
+              Buy Now
+            </button>
+
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- Product Card 3 -->
+      <div class="bg-white rounded-xl shadow-lg overflow-hidden
+                  w-full md:w-[45%] lg:w-[30%]
+                  hover:shadow-2xl transition">
+
+        <img
+          src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+          alt="Running Shoes"
+          class="w-full h-56 object-cover">
+
+        <div class="p-6">
+
+          <h3 class="text-xl font-bold mb-2">
+            Running Shoes
+          </h3>
+
+          <p class="text-gray-600 mb-4">
+            Comfortable and lightweight running shoes designed
+            for everyday workouts.
+          </p>
+
+          <div class="flex items-center justify-between">
+
+            <span class="text-2xl font-bold text-blue-600">
+              $89
+            </span>
+
+            <button
+              class="bg-blue-600 text-white px-4 py-2 rounded-lg
+                     hover:bg-blue-700 transition">
+              Buy Now
+            </button>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-6">
+
+    <div class="max-w-7xl mx-auto px-6">
+
+      <div class="flex flex-col md:flex-row
+                  items-center justify-between gap-4">
+
+        <p>
+          © 2026 TechStore. All rights reserved.
+        </p>
+
+        <div class="flex gap-4">
+          <a href="#" class="hover:text-blue-400">Facebook</a>
+          <a href="#" class="hover:text-blue-400">Instagram</a>
+          <a href="#" class="hover:text-blue-400">Twitter</a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+</html>
