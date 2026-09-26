@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SB Jain College Event Invitation</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- HEADER / HERO -->
+    <header class="bg-gradient-to-r from-indigo-700 to-pink-700 text-white">
+
+        <div class="max-w-6xl mx-auto px-6 py-16 text-center">
+
+            <h1 class="text-4xl md:text-4xl font-extrabold uppercase tracking-wide">
+                S. B. Jain Institute of Technology,
+                Management & Research
+            </h1>
+
+            <h2 class="text-lg lg:text-xl font-extrabold mt-8">
+                College Cultural Fest 2026
+            </h2>
+
+            <p class="text-lg md:text-xl mt-5 text-indigo-100">
+                Celebrate Talent, Creativity & Friendship
+            </p>
+
+            <div class="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+
+                <a href="#register"
+                   class="bg-yellow-400 text-gray-900 px-7 py-3 rounded-lg
+                          font-bold hover:bg-yellow-300 transition duration-300">
+                    Register Now
+                </a>
+
+                <a href="#details"
+                   class="border-2 border-white px-7 py-3 rounded-lg
+                          font-semibold hover:bg-white hover:text-indigo-700
+                          transition duration-300">
+                    Event Details
+                </a>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- INVITATION MESSAGE -->
+    <section class="max-w-5xl mx-auto px-6 py-12">
+
+        <div class="bg-white rounded-2xl shadow-lg border border-gray-200
+                    p-8 md:p-12 text-center">
+
+            <h2 class="text-3xl font-bold text-indigo-700">
+                A Warm Invitation
+            </h2>
+
+            <p class="mt-5 text-gray-600 leading-relaxed text-lg">
+                We are delighted to invite you to our annual College Cultural
+                Fest. Join us for an exciting day filled with music, dance,
+                drama, competitions, food, and unforgettable memories.
+            </p>
+
+            <p class="mt-4 text-gray-600 leading-relaxed">
+                Bring your friends and showcase your talents while enjoying
+                the vibrant spirit of our college community!
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- EVENT DETAILS -->
+    <section id="details" class="bg-white py-12">
+
+        <div class="max-w-6xl mx-auto px-6">
+
+            <h2 class="text-3xl font-bold text-center text-gray-800">
+                Event Details
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+
+                <!-- DATE -->
+                <div class="border border-indigo-200 rounded-xl p-6
+                            text-center shadow-sm hover:shadow-lg
+                            transition duration-300">
+
+                    <div class="text-4xl mb-4">📅</div>
+
+                    <h3 class="text-xl font-bold text-indigo-700">
+                        Date
+                    </h3>
+
+                    <p class="mt-2 text-gray-600">
+                        25th September 2026
+                    </p>
+
+                </div>
+
+
+                <!-- TIME -->
+                <div class="border border-purple-200 rounded-xl p-6
+                            text-center shadow-sm hover:shadow-lg
+                            transition duration-300">
+
+                    <div class="text-4xl mb-4">⏰</div>
+
+                    <h3 class="text-xl font-bold text-purple-700">
+                        Time
+                    </h3>
+
+                    <p class="mt-2 text-gray-600">
+                        10:00 AM onwards
+                    </p>
+
+                </div>
+
+
+                <!-- VENUE -->
+                <div class="border border-pink-200 rounded-xl p-6
+                            text-center shadow-sm hover:shadow-lg
+                            transition duration-300">
+
+                    <div class="text-4xl mb-4">📍</div>
+
+                    <h3 class="text-xl font-bold text-pink-700">
+                        Venue
+                    </h3>
+
+                    <p class="mt-2 text-gray-600">
+                        College Auditorium
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- EVENT HIGHLIGHTS -->
+    <section class="bg-gray-100 py-12">
+
+        <div class="max-w-6xl mx-auto px-6">
+
+            <h2 class="text-3xl font-bold text-center text-indigo-700">
+                Event Highlights
+            </h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4
+                        gap-6 mt-10">
+
+                <!-- MUSIC -->
+                <div class="bg-white rounded-xl p-6 shadow-md
+                            border-t-4 border-indigo-600">
+
+                    <h3 class="text-xl font-bold">
+                        🎵 Live Music
+                    </h3>
+
+                    <p class="mt-3 text-gray-600">
+                        Enjoy performances from talented student artists.
+                    </p>
+
+                </div>
+
+
+                <!-- DANCE -->
+                <div class="bg-white rounded-xl p-6 shadow-md
+                            border-t-4 border-purple-600">
+
+                    <h3 class="text-xl font-bold">
+                        💃 Dance
+                    </h3>
+
+                    <p class="mt-3 text-gray-600">
+                        Experience energetic and creative dance performances.
+                    </p>
+
+                </div>
+
+
+                <!-- DRAMA -->
+                <div class="bg-white rounded-xl p-6 shadow-md
+                            border-t-4 border-pink-600">
+
+                    <h3 class="text-xl font-bold">
+                        🎭 Drama
+                    </h3>
+
+                    <p class="mt-3 text-gray-600">
+                        Watch entertaining plays and theatrical performances.
+                    </p>
+
+                </div>
+
+
+                <!-- COMPETITIONS -->
+                <div class="bg-white rounded-xl p-6 shadow-md
+                            border-t-4 border-yellow-500">
+
+                    <h3 class="text-xl font-bold">
+                        🏆 Competitions
+                    </h3>
+
+                    <p class="mt-3 text-gray-600">
+                        Participate in fun competitions and win exciting prizes.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- REGISTRATION -->
+    <section id="register"
+             class="bg-gradient-to-r from-indigo-700 to-pink-700 text-white py-12">
+
+        <div class="max-w-3xl mx-auto px-6 text-center">
+
+            <h2 class="text-3xl md:text-4xl font-bold">
+                Be Part of the Celebration!
+            </h2>
+
+            <p class="mt-4 text-indigo-200 text-lg">
+                Register today and make unforgettable college memories.
+            </p>
+
+            <button
+                class="mt-8 bg-yellow-400 text-gray-900 px-8 py-3
+                       rounded-lg font-bold text-lg
+                       hover:bg-yellow-300
+                       hover:scale-105
+                       transition duration-300">
+
+                Register for the Event
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-gray-400 text-center py-6">
+
+        <p>
+            © 2026 College Cultural Fest | All Rights Reserved
+        </p>
+
+        <p class="mt-2 text-sm">
+            Organized by the College Student Council
+        </p>
+
+    </footer>
+
+</body>
+</html>
