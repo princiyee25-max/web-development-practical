@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Interactive FAQ</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-5">
+
+    <div class="w-full max-w-2xl bg-white rounded-2xl shadow-lg p-6">
+
+        <!-- Heading -->
+        <h1 class="text-3xl font-bold text-center text-blue-600 mb-2">
+            Frequently Asked Questions
+        </h1>
+
+        <p class="text-center text-gray-500 mb-6">
+            Click on a question to view the answer
+        </p>
+
+
+        <!-- FAQ 1 -->
+        <div class="faq-item border border-gray-200 rounded-lg mb-3">
+
+            <button
+                class="faq-question w-full flex justify-between items-center text-left p-4 font-semibold text-gray-800 hover:bg-blue-50"
+            >
+                <span>What is JavaScript?</span>
+                <span class="arrow text-xl">+</span>
+            </button>
+
+            <div class="faq-answer hidden px-4 pb-4 text-gray-600">
+                JavaScript is a programming language used to make
+                webpages interactive and dynamic.
+            </div>
+
+        </div>
+
+
+        <!-- FAQ 2 -->
+        <div class="faq-item border border-gray-200 rounded-lg mb-3">
+
+            <button
+                class="faq-question w-full flex justify-between items-center text-left p-4 font-semibold text-gray-800 hover:bg-blue-50"
+            >
+                <span>What is HTML?</span>
+                <span class="arrow text-xl">+</span>
+            </button>
+
+            <div class="faq-answer hidden px-4 pb-4 text-gray-600">
+                HTML stands for HyperText Markup Language. It is used
+                to create the structure of a webpage.
+            </div>
+
+        </div>
+
+
+        <!-- FAQ 3 -->
+        <div class="faq-item border border-gray-200 rounded-lg mb-3">
+
+            <button
+                class="faq-question w-full flex justify-between items-center text-left p-4 font-semibold text-gray-800 hover:bg-blue-50"
+            >
+                <span>What is Tailwind CSS?</span>
+                <span class="arrow text-xl">+</span>
+            </button>
+
+            <div class="faq-answer hidden px-4 pb-4 text-gray-600">
+                Tailwind CSS is a utility-first CSS framework used
+                to design modern and responsive webpages.
+            </div>
+
+        </div>
+
+
+        <!-- FAQ 4 -->
+        <div class="faq-item border border-gray-200 rounded-lg mb-3">
+
+            <button
+                class="faq-question w-full flex justify-between items-center text-left p-4 font-semibold text-gray-800 hover:bg-blue-50"
+            >
+                <span>What is DOM?</span>
+                <span class="arrow text-xl">+</span>
+            </button>
+
+            <div class="faq-answer hidden px-4 pb-4 text-gray-600">
+                DOM stands for Document Object Model. It allows
+                JavaScript to access and change HTML elements.
+            </div>
+
+        </div>
+
+
+        <!-- FAQ 5 -->
+        <div class="faq-item border border-gray-200 rounded-lg">
+
+            <button
+                class="faq-question w-full flex justify-between items-center text-left p-4 font-semibold text-gray-800 hover:bg-blue-50"
+            >
+                <span>Why use event listeners?</span>
+                <span class="arrow text-xl">+</span>
+            </button>
+
+            <div class="faq-answer hidden px-4 pb-4 text-gray-600">
+                Event listeners allow JavaScript to respond to user
+                actions such as clicks, mouse movements, and keyboard input.
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script>
+
+        // Select all FAQ questions
+        const questions = document.querySelectorAll(".faq-question");
+
+        // Add click event listener to each question
+        questions.forEach(function(question) {
+
+            question.addEventListener("click", function() {
+
+                // Find the answer related to this question
+                const answer = question.nextElementSibling;
+
+                // Find the + / - symbol
+                const arrow = question.querySelector(".arrow");
+
+                // Show or hide the answer
+                answer.classList.toggle("hidden");
+
+                // Change + to - and - to +
+                if (answer.classList.contains("hidden")) {
+                    arrow.textContent = "+";
+                } else {
+                    arrow.textContent = "-";
+                }
+
+            });
+
+        });
+
+    </script>
+
+</body>
+</html>
